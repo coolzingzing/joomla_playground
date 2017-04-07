@@ -22,7 +22,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <div class="system-unpublished">
 <?php endif; ?>
 <?php if ($params->get('show_title')) : ?>
-	<h2>
+	<h2>這是目錄頁每篇文章的title：
 		<?php if ($params->get('link_titles') && $params->get('access-view')) : ?>
 			<a href="<?php echo JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid, $this->item->language)); ?>">
 			<?php echo $this->escape($this->item->title); ?></a>
