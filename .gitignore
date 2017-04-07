@@ -1,6 +1,9 @@
+# phpstorm#
+/.idea/
 
 # Apache #
 .htaccess
 
 # For whole Joomla! site #
 configuration.php
+/images/
