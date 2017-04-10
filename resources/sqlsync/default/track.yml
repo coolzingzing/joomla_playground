@@ -67,3 +67,4 @@ table:
     '#__users': cols
     '#__utf8_conversion': all
     '#__viewlevels': all
+    '#__test': all
