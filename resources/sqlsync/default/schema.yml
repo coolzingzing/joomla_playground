@@ -1564,6 +1564,15 @@
         - ['5', hathor, '1', '0', 'Hathor - Default', '{"showSiteName":"0","colourChoice":"","boldText":"0"}']
         - ['7', protostar, '0', '1', 'protostar - Default', '{"templateColor":"","logoFile":"","googleFont":"1","googleFontName":"Open+Sans","fluidContainer":"0"}']
         - ['8', isis, '1', '1', 'isis - Default', '{"templateColor":"","logoFile":""}']
+'#__test':
+    name: '#__test'
+    from:
+        - '#__test'
+    columns:
+        id: { Field: id, Type: int(11), 'Null': 'YES', Default: null, Extra: '', Comment: '', From: [id] }
+        title: { Field: title, Type: varchar(255), 'Null': 'YES', Default: null, Extra: '', Comment: '', From: [title] }
+        date: { Field: date, Type: date, 'Null': 'YES', Default: null, Extra: '', Comment: '', From: [date] }
+    index: {  }
 '#__ucm_base':
     name: '#__ucm_base'
     from:
