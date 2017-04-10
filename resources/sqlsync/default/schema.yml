@@ -18,7 +18,7 @@
         - { Table: '#__assets', Non_unique: '1', Key_name: idx_lft_rgt, Seq_in_index: '2', Column_name: rgt, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
         - { Table: '#__assets', Non_unique: '1', Key_name: idx_parent_id, Seq_in_index: '1', Column_name: parent_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
     data:
-        - ['1', '0', '0', '119', '0', root.1, 'Root Asset', '{"core.login.site":{"6":1,"2":1},"core.login.admin":{"6":1},"core.login.offline":{"6":1},"core.admin":{"8":1},"core.manage":{"7":1},"core.create":{"6":1,"3":1},"core.delete":{"6":1},"core.edit":{"6":1,"4":1},"core.edit.state":{"6":1,"5":1},"core.edit.own":{"6":1,"3":1}}']
+        - ['1', '0', '0', '133', '0', root.1, 'Root Asset', '{"core.login.site":{"6":1,"2":1},"core.login.admin":{"6":1},"core.login.offline":{"6":1},"core.admin":{"8":1},"core.manage":{"7":1},"core.create":{"6":1,"3":1},"core.delete":{"6":1},"core.edit":{"6":1,"4":1},"core.edit.state":{"6":1,"5":1},"core.edit.own":{"6":1,"3":1}}']
         - ['2', '1', '1', '2', '1', com_admin, com_admin, '{}']
         - ['3', '1', '3', '6', '1', com_banners, com_banners, '{"core.admin":{"7":1},"core.manage":{"6":1},"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
         - ['4', '1', '7', '8', '1', com_cache, com_cache, '{"core.admin":{"7":1},"core.manage":{"7":1}}']
@@ -35,25 +35,25 @@
         - ['15', '1', '35', '36', '1', com_media, com_media, '{"core.admin":{"7":1},"core.manage":{"6":1},"core.create":{"3":1},"core.delete":{"5":1}}']
         - ['16', '1', '37', '38', '1', com_menus, com_menus, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
         - ['17', '1', '39', '40', '1', com_messages, com_messages, '{"core.admin":{"7":1},"core.manage":{"7":1}}']
-        - ['18', '1', '41', '86', '1', com_modules, com_modules, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
-        - ['19', '1', '87', '90', '1', com_newsfeeds, com_newsfeeds, '{"core.admin":{"7":1},"core.manage":{"6":1},"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
-        - ['20', '1', '91', '92', '1', com_plugins, com_plugins, '{"core.admin":{"7":1},"core.manage":[],"core.edit":[],"core.edit.state":[]}']
-        - ['21', '1', '93', '94', '1', com_redirect, com_redirect, '{"core.admin":{"7":1},"core.manage":[]}']
-        - ['22', '1', '95', '96', '1', com_search, com_search, '{"core.admin":{"7":1},"core.manage":{"6":1}}']
-        - ['23', '1', '97', '98', '1', com_templates, com_templates, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
-        - ['24', '1', '99', '102', '1', com_users, com_users, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
-        - ['26', '1', '103', '104', '1', com_wrapper, com_wrapper, '{}']
+        - ['18', '1', '41', '98', '1', com_modules, com_modules, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
+        - ['19', '1', '99', '102', '1', com_newsfeeds, com_newsfeeds, '{"core.admin":{"7":1},"core.manage":{"6":1},"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
+        - ['20', '1', '103', '104', '1', com_plugins, com_plugins, '{"core.admin":{"7":1},"core.manage":[],"core.edit":[],"core.edit.state":[]}']
+        - ['21', '1', '105', '106', '1', com_redirect, com_redirect, '{"core.admin":{"7":1},"core.manage":[]}']
+        - ['22', '1', '107', '108', '1', com_search, com_search, '{"core.admin":{"7":1},"core.manage":{"6":1}}']
+        - ['23', '1', '109', '110', '1', com_templates, com_templates, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
+        - ['24', '1', '111', '114', '1', com_users, com_users, '{"core.admin":{"7":1},"core.manage":[],"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
+        - ['26', '1', '115', '116', '1', com_wrapper, com_wrapper, '{}']
         - ['27', '8', '18', '21', '2', com_content.category.2, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
         - ['28', '3', '4', '5', '2', com_banners.category.3, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
         - ['29', '7', '14', '15', '2', com_contact.category.4, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
-        - ['30', '19', '88', '89', '2', com_newsfeeds.category.5, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
-        - ['32', '24', '100', '101', '1', com_users.category.7, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
-        - ['33', '1', '105', '106', '1', com_finder, com_finder, '{"core.admin":{"7":1},"core.manage":{"6":1}}']
-        - ['34', '1', '107', '108', '1', com_joomlaupdate, com_joomlaupdate, '{"core.admin":[],"core.manage":[],"core.delete":[],"core.edit.state":[]}']
-        - ['35', '1', '109', '110', '1', com_tags, com_tags, '{"core.admin":[],"core.manage":[],"core.manage":[],"core.delete":[],"core.edit.state":[]}']
-        - ['36', '1', '111', '112', '1', com_contenthistory, com_contenthistory, '{}']
-        - ['37', '1', '113', '114', '1', com_ajax, com_ajax, '{}']
-        - ['38', '1', '115', '116', '1', com_postinstall, com_postinstall, '{}']
+        - ['30', '19', '100', '101', '2', com_newsfeeds.category.5, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[],"core.edit.own":[]}']
+        - ['32', '24', '112', '113', '1', com_users.category.7, Uncategorised, '{"core.create":[],"core.delete":[],"core.edit":[],"core.edit.state":[]}']
+        - ['33', '1', '117', '118', '1', com_finder, com_finder, '{"core.admin":{"7":1},"core.manage":{"6":1}}']
+        - ['34', '1', '119', '120', '1', com_joomlaupdate, com_joomlaupdate, '{"core.admin":[],"core.manage":[],"core.delete":[],"core.edit.state":[]}']
+        - ['35', '1', '121', '122', '1', com_tags, com_tags, '{"core.admin":[],"core.manage":[],"core.manage":[],"core.delete":[],"core.edit.state":[]}']
+        - ['36', '1', '123', '124', '1', com_contenthistory, com_contenthistory, '{}']
+        - ['37', '1', '125', '126', '1', com_ajax, com_ajax, '{}']
+        - ['38', '1', '127', '128', '1', com_postinstall, com_postinstall, '{}']
         - ['39', '18', '42', '43', '2', com_modules.module.1, 'Main Menu', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}']
         - ['40', '18', '44', '45', '2', com_modules.module.2, Login, '{"core.delete":[],"core.edit":[],"core.edit.state":[]}']
         - ['41', '18', '46', '47', '2', com_modules.module.3, 'Popular Articles', '{"core.delete":[],"core.edit":[],"core.edit.state":[]}']
@@ -77,7 +77,14 @@
         - ['59', '18', '82', '83', '2', com_modules.module.92, 'Image Module', '{"core.delete":{"6":1},"core.edit":{"6":1,"4":1},"core.edit.state":{"6":1,"5":1}}']
         - ['60', '18', '84', '85', '2', com_modules.module.93, Search, '{"core.delete":{"6":1},"core.edit":{"6":1,"4":1},"core.edit.state":{"6":1,"5":1}}']
         - ['61', '27', '19', '20', '3', com_content.article.1, 'Getting Started', '{"core.delete":{"6":1},"core.edit":{"6":1,"4":1},"core.edit.state":{"6":1,"5":1}}']
-        - ['62', '1', '117', '118', '1', '#__ucm_content.1', '#__ucm_content.1', '[]']
+        - ['62', '1', '129', '130', '1', '#__ucm_content.1', '#__ucm_content.1', '[]']
+        - ['63', '1', '131', '132', '1', com_jevents, COM_JEVENTS, '{}']
+        - ['64', '18', '86', '87', '2', com_modules.module.94, 'JEvents - Calendar Module', '{}']
+        - ['65', '18', '88', '89', '2', com_modules.module.95, 'JEvents - Legend Module', '{}']
+        - ['66', '18', '90', '91', '2', com_modules.module.96, 'JEvents - Latest Events Module', '{}']
+        - ['67', '18', '92', '93', '2', com_modules.module.97, 'JEvents - Filter Module', '{}']
+        - ['68', '18', '94', '95', '2', com_modules.module.98, 'JEvents - Custom Module', '{}']
+        - ['69', '18', '96', '97', '2', com_modules.module.99, 'JEvents - Switch View Module', '{}']
 '#__associations':
     name: '#__associations'
     from:
@@ -332,7 +339,7 @@
         - { Table: '#__content', Non_unique: '1', Key_name: idx_language, Seq_in_index: '1', Column_name: language, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
         - { Table: '#__content', Non_unique: '1', Key_name: idx_xreference, Seq_in_index: '1', Column_name: xreference, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
     data:
-        - ['1', '61', 'Getting Started', getting-started, '<p>It''s easy to get started creating your website. Knowing some of the basics will help.</p><h3>What is a Content Management System?</h3><p>A content management system is software that allows you to create and manage webpages easily by separating the creation of your content from the mechanics required to present it on the web.</p><p>In this site, the content is stored in a <em>database</em>. The look and feel are created by a <em>template</em>. Joomla! brings together the template and your content to create web pages.</p><h3>Logging in</h3><p>To login to your site use the user name and password that were created as part of the installation process. Once logged-in you will be able to create and edit articles and modify some settings.</p><h3>Creating an article</h3><p>Once you are logged-in, a new menu will be visible. To create a new article, click on the "Submit Article" link on that menu.</p><p>The new article interface gives you a lot of options, but all you need to do is add a title and put something in the content area. To make it easy to find, set the state to published.</p><div>You can edit an existing article by clicking on the edit icon (this only displays to users who have the right to edit).</div><h3>Template, site settings, and modules</h3><p>The look and feel of your site is controlled by a template. You can change the site name, background colour, highlights colour and more by editing the template settings. Click the "Template Settings" in the user menu.</p><p>The boxes around the main content of the site are called modules. You can modify modules on the current page by moving your cursor to the module and clicking the edit link. Always be sure to save and close any module you edit.</p><p>You can change some site settings such as the site name and description by clicking on the "Site Settings" link.</p><p>More advanced options for templates, site settings, modules, and more are available in the site administrator.</p><h3>Site and Administrator</h3><p>Your site actually has two separate sites. The site (also called the front end) is what visitors to your site will see. The administrator (also called the back end) is only used by people managing your site. You can access the administrator by clicking the "Site Administrator" link on the "User Menu" menu (visible once you login) or by adding /administrator to the end of your domain name. The same user name and password are used for both sites.</p><h3>Learn more</h3><p>There is much more to learn about how to use Joomla! to create the website you envision. You can learn much more at the <a href="https://docs.joomla.org" target="_blank">Joomla! documentation site</a> and on the<a href="http://forum.joomla.org" target="_blank"> Joomla! forums</a>.</p>', '', '1', '2', '2013-11-16 00:00:00', '429', '', '0000-00-00 00:00:00', '0', '0', '0000-00-00 00:00:00', '2013-11-16 00:00:00', '0000-00-00 00:00:00', '{"image_intro":"","float_intro":"","image_intro_alt":"","image_intro_caption":"","image_fulltext":"","float_fulltext":"","image_fulltext_alt":"","image_fulltext_caption":""}', '{"urla":false,"urlatext":"","targeta":"","urlb":false,"urlbtext":"","targetb":"","urlc":false,"urlctext":"","targetc":""}', '{"show_title":"","link_titles":"","show_tags":"","show_intro":"","info_block_position":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","urls_position":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}', '1', '0', '', '', '1', '1', '{"robots":"","author":"","rights":"","xreference":""}', '0', '*', '']
+        - ['1', '61', 'Getting Started', getting-started, '<p>It''s easy to get started creating your website. Knowing some of the basics will help.</p><h3>What is a Content Management System?</h3><p>A content management system is software that allows you to create and manage webpages easily by separating the creation of your content from the mechanics required to present it on the web.</p><p>In this site, the content is stored in a <em>database</em>. The look and feel are created by a <em>template</em>. Joomla! brings together the template and your content to create web pages.</p><h3>Logging in</h3><p>To login to your site use the user name and password that were created as part of the installation process. Once logged-in you will be able to create and edit articles and modify some settings.</p><h3>Creating an article</h3><p>Once you are logged-in, a new menu will be visible. To create a new article, click on the "Submit Article" link on that menu.</p><p>The new article interface gives you a lot of options, but all you need to do is add a title and put something in the content area. To make it easy to find, set the state to published.</p><div>You can edit an existing article by clicking on the edit icon (this only displays to users who have the right to edit).</div><h3>Template, site settings, and modules</h3><p>The look and feel of your site is controlled by a template. You can change the site name, background colour, highlights colour and more by editing the template settings. Click the "Template Settings" in the user menu.</p><p>The boxes around the main content of the site are called modules. You can modify modules on the current page by moving your cursor to the module and clicking the edit link. Always be sure to save and close any module you edit.</p><p>You can change some site settings such as the site name and description by clicking on the "Site Settings" link.</p><p>More advanced options for templates, site settings, modules, and more are available in the site administrator.</p><h3>Site and Administrator</h3><p>Your site actually has two separate sites. The site (also called the front end) is what visitors to your site will see. The administrator (also called the back end) is only used by people managing your site. You can access the administrator by clicking the "Site Administrator" link on the "User Menu" menu (visible once you login) or by adding /administrator to the end of your domain name. The same user name and password are used for both sites.</p><h3>Learn more</h3><p>There is much more to learn about how to use Joomla! to create the website you envision. You can learn much more at the <a href="https://docs.joomla.org" target="_blank">Joomla! documentation site</a> and on the<a href="http://forum.joomla.org" target="_blank"> Joomla! forums</a>.</p>', '', '1', '2', '2013-11-16 00:00:00', '429', '', '0000-00-00 00:00:00', '0', '0', '0000-00-00 00:00:00', '2013-11-16 00:00:00', '0000-00-00 00:00:00', '{"image_intro":"","float_intro":"","image_intro_alt":"","image_intro_caption":"","image_fulltext":"","float_fulltext":"","image_fulltext_alt":"","image_fulltext_caption":""}', '{"urla":false,"urlatext":"","targeta":"","urlb":false,"urlbtext":"","targetb":"","urlc":false,"urlctext":"","targetc":""}', '{"show_title":"","link_titles":"","show_tags":"","show_intro":"","info_block_position":"","show_category":"","link_category":"","show_parent_category":"","link_parent_category":"","show_author":"","link_author":"","show_create_date":"","show_modify_date":"","show_publish_date":"","show_item_navigation":"","show_icons":"","show_print_icon":"","show_email_icon":"","show_vote":"","show_hits":"","show_noauth":"","urls_position":"","alternative_readmore":"","article_layout":"","show_publishing_options":"","show_article_options":"","show_urls_images_backend":"","show_urls_images_frontend":""}', '1', '0', '', '', '1', '2', '{"robots":"","author":"","rights":"","xreference":""}', '0', '*', '']
 '#__content_frontpage':
     name: '#__content_frontpage'
     from:
@@ -478,7 +485,7 @@
         - ['31', com_ajax, component, com_ajax, '', '1', '1', '1', '1', '{"name":"com_ajax","type":"component","creationDate":"August 2013","author":"Joomla! Project","copyright":"(C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.2.0","description":"COM_AJAX_XML_DESCRIPTION","group":"","filename":"ajax"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['32', com_postinstall, component, com_postinstall, '', '1', '1', '1', '1', '{"name":"com_postinstall","type":"component","creationDate":"September 2013","author":"Joomla! Project","copyright":"(C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.2.0","description":"COM_POSTINSTALL_XML_DESCRIPTION","group":""}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['102', LIB_PHPUTF8, library, phputf8, '', '0', '1', '1', '1', '{"name":"LIB_PHPUTF8","type":"library","creationDate":"2006","author":"Harry Fuecks","copyright":"Copyright various authors","authorEmail":"hfuecks@gmail.com","authorUrl":"http:\/\/sourceforge.net\/projects\/phputf8","version":"0.5","description":"LIB_PHPUTF8_XML_DESCRIPTION","group":"","filename":"phputf8"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
-        - ['103', LIB_JOOMLA, library, joomla, '', '0', '1', '1', '1', '{"name":"LIB_JOOMLA","type":"library","creationDate":"2008","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"https:\/\/www.joomla.org","version":"13.1","description":"LIB_JOOMLA_XML_DESCRIPTION","group":"","filename":"joomla"}', '{"mediaversion":"9c35aedaff5e930d84a0f91d3219271d"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['103', LIB_JOOMLA, library, joomla, '', '0', '1', '1', '1', '{"name":"LIB_JOOMLA","type":"library","creationDate":"2008","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"https:\/\/www.joomla.org","version":"13.1","description":"LIB_JOOMLA_XML_DESCRIPTION","group":"","filename":"joomla"}', '{"mediaversion":"ff7d8b48a0fa8b5ca1d66cad380749e2"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['104', LIB_IDNA, library, idna_convert, '', '0', '1', '1', '1', '{"name":"LIB_IDNA","type":"library","creationDate":"2004","author":"phlyLabs","copyright":"2004-2011 phlyLabs Berlin, http:\/\/phlylabs.de","authorEmail":"phlymail@phlylabs.de","authorUrl":"http:\/\/phlylabs.de","version":"0.8.0","description":"LIB_IDNA_XML_DESCRIPTION","group":"","filename":"idna_convert"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['105', FOF, library, fof, '', '0', '1', '1', '1', '{"name":"FOF","type":"library","creationDate":"2015-04-22 13:15:32","author":"Nicholas K. Dionysopoulos \/ Akeeba Ltd","copyright":"(C)2011-2015 Nicholas K. Dionysopoulos","authorEmail":"nicholas@akeebabackup.com","authorUrl":"https:\/\/www.akeebabackup.com","version":"2.4.3","description":"LIB_FOF_XML_DESCRIPTION","group":"","filename":"fof"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['106', LIB_PHPASS, library, phpass, '', '0', '1', '1', '1', '{"name":"LIB_PHPASS","type":"library","creationDate":"2004-2006","author":"Solar Designer","copyright":"","authorEmail":"solar@openwall.com","authorUrl":"http:\/\/www.openwall.com\/phpass\/","version":"0.3","description":"LIB_PHPASS_XML_DESCRIPTION","group":"","filename":"phpass"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
@@ -571,7 +578,7 @@
         - ['449', plg_authentication_cookie, plugin, cookie, authentication, '0', '1', '1', '0', '{"name":"plg_authentication_cookie","type":"plugin","creationDate":"July 2013","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.0.0","description":"PLG_AUTH_COOKIE_XML_DESCRIPTION","group":"","filename":"cookie"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['450', plg_twofactorauth_yubikey, plugin, yubikey, twofactorauth, '0', '0', '1', '0', '{"name":"plg_twofactorauth_yubikey","type":"plugin","creationDate":"September 2013","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.2.0","description":"PLG_TWOFACTORAUTH_YUBIKEY_XML_DESCRIPTION","group":"","filename":"yubikey"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['451', plg_search_tags, plugin, tags, search, '0', '1', '1', '0', '{"name":"plg_search_tags","type":"plugin","creationDate":"March 2014","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.0.0","description":"PLG_SEARCH_TAGS_XML_DESCRIPTION","group":"","filename":"tags"}', '{"search_limit":"50","show_tagged_items":"1"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
-        - ['452', plg_system_updatenotification, plugin, updatenotification, system, '0', '1', '1', '0', '{"name":"plg_system_updatenotification","type":"plugin","creationDate":"May 2015","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.5.0","description":"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION","group":"","filename":"updatenotification"}', '{"lastrun":1491362762}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['452', plg_system_updatenotification, plugin, updatenotification, system, '0', '1', '1', '0', '{"name":"plg_system_updatenotification","type":"plugin","creationDate":"May 2015","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.5.0","description":"PLG_SYSTEM_UPDATENOTIFICATION_XML_DESCRIPTION","group":"","filename":"updatenotification"}', '{"lastrun":1491808395}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['453', plg_editors-xtd_module, plugin, module, editors-xtd, '0', '1', '1', '0', '{"name":"plg_editors-xtd_module","type":"plugin","creationDate":"October 2015","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.5.0","description":"PLG_MODULE_XML_DESCRIPTION","group":"","filename":"module"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['454', plg_system_stats, plugin, stats, system, '0', '1', '1', '0', '{"name":"plg_system_stats","type":"plugin","creationDate":"November 2013","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.5.0","description":"PLG_SYSTEM_STATS_XML_DESCRIPTION","group":"","filename":"stats"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['455', plg_installer_packageinstaller, plugin, packageinstaller, installer, '0', '1', '1', '1', '{"name":"plg_installer_packageinstaller","type":"plugin","creationDate":"May 2016","author":"Joomla! Project","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"3.6.0","description":"PLG_INSTALLER_PACKAGEINSTALLER_PLUGIN_XML_DESCRIPTION","group":"","filename":"packageinstaller"}', '', '', '', '0', '0000-00-00 00:00:00', '1', '0']
@@ -588,6 +595,23 @@
         - ['10000', '', language, zh-TW, '', '0', '1', '0', '0', '{"name":"\u4e2d\u6587(\u7e41\u9ad4\uff0e\u53f0\u7063)","type":"language","creationDate":"2016-10-19","author":"Joomla! Taiwan User Community","copyright":"Copyright (C) 2005 - 2016 Open Source Matters. All rights reserved.","authorEmail":"eddy@joomla.com.tw","authorUrl":"www.joomla.org.tw","version":"3.6.3.1","description":"chinese traditional (zh-TW) site language","group":"","filename":"install"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['10001', '', language, zh-TW, '', '1', '1', '0', '0', '{"name":"\u4e2d\u6587(\u7e41\u9ad4)","type":"language","creationDate":"2016-10-19","author":"Joomla! Taiwan User Community","copyright":"Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.","authorEmail":"eddy@joomla.com.tw","authorUrl":"www.joomla.org.tw","version":"3.6.3.1","description":"Traditional Chinese administrator language","group":"","filename":"install"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
         - ['10002', 中文(繁體．台灣)完整語言包, package, pkg_zh-TW, '', '0', '1', '1', '0', '{"name":"\u4e2d\u6587(\u7e41\u9ad4\uff0e\u53f0\u7063)\u5b8c\u6574\u8a9e\u8a00\u5305","type":"package","creationDate":"2016-10-19","author":"Joomla! Taiwan User Community","copyright":"Copyright (C) 2005 - 2016 Open Source Matters  All rights reserved.","authorEmail":"eddy@joomla.com.tw","authorUrl":"www.joomla.org.tw","version":"3.6.3.1","description":"\n      \n      <h3>Joomla! v3.6.3.1 \u4e2d\u6587(\u7e41\u9ad4\uff0e\u53f0\u7063)\u5b8c\u6574\u8a9e\u8a00\u5305<\/h3>\n      <h3>Joomla! v3.6.3.1 Traditional Chinese (Taiwan) Language Package<\/h3>\n      \n   ","group":"","filename":"pkg_zh-TW"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10003', plg_installer_webinstaller, plugin, webinstaller, installer, '0', '1', '1', '0', '{"name":"plg_installer_webinstaller","type":"plugin","creationDate":"17 February 2016","author":"Joomla! Project","copyright":"Copyright (C) 2013-2016 Open Source Matters. All rights reserved.","authorEmail":"admin@joomla.org","authorUrl":"www.joomla.org","version":"1.1.0","description":"PLG_INSTALLER_WEBINSTALLER_XML_DESCRIPTION","group":"","filename":"webinstaller"}', '{"tab_position":"0"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10004', COM_JEVENTS, component, com_jevents, '', '1', '1', '0', '0', '{"name":"COM_JEVENTS","type":"component","creationDate":"March 2017","author":"GWE Systems Ltd ","copyright":"(C) 2009-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"COM_JEVENTS_DESC","group":"","filename":"manifest"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10005', MOD_JEV_CALENDAR_TITLE, module, mod_jevents_cal, '', '0', '1', '0', '0', '{"name":"MOD_JEV_CALENDAR_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2009-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_CALENDAR_DESC","group":"","filename":"mod_jevents_cal"}', '{"@spacer":"JEV_LATEST_EXTRAS_TAB_LABEL","target_itemid":"","catidnew":"","modcal_useLocalParam":"0","showtooltips":"0","noeventcheck":"0","ignorecatfilter":"0","ignorefiltermodule":"1","minical_showlink":"1","minical_prevyear":"1","minical_prevmonth":"1","minical_actmonth":"1","minical_actyear":"1","minical_nextmonth":"1","minical_nextyear":"1","minical_usedate":"0","modcal_DispLastMonth":"NO","modcal_DispLastMonthDays":"0","modcal_DispNextMonth":"NO","modcal_DispNextMonthDays":"0","emptydaylinks":"1","extras0":"","extras1":"","extras2":"","extras3":"","extras4":"","extras5":"","extras6":"","extras7":"","extras8":"","extras9":"","extras10":"","extras11":"","extras12":"","extras13":"","com_calViewName":"","moduleclass_sfx":"","inc_ec_css":"1","mod_cal_width":"","mod_cal_height":"","mod_cal_rowheight":"","cache":"1","modcal_LinkCloaking":"0"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10006', MOD_JEV_LEGEND_TITLE, module, mod_jevents_legend, '', '0', '1', '0', '0', '{"name":"MOD_JEV_LEGEND_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2009-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_LEGEND_DESC","group":"","filename":"mod_jevents_legend"}', '{"com_calViewName":"","cache":"0","moduleclass_sfx":"","show_admin":"0","modlegend_inccss":"1","nonjeventsdisable":"1","target_itemid":"","catidnew":"","hideinactivekids":"1"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10007', MOD_JEV_LATEST_EVENTS_TITLE, module, mod_jevents_latest, '', '0', '1', '0', '0', '{"name":"MOD_JEV_LATEST_EVENTS_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2009-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_LATEST_EVENTS_DESC","group":"","filename":"mod_jevents_latest"}', '{"@spacer":"ADDITIONAL_CONSTRAINTS","com_calViewName":"","cache":"0","contentplugins":"0","moduleclass_sfx":"","catidnew":"","ignorecatfilter":"0","ignorefiltermodule":"0","target_itemid":"","modlatest_inccss":"1","layout":"","modlatest_useLocalParam":"1","showNavigation":"0","CustomFromTemplate":"1","modlatest_CustFmtStr":"<span class=\"icon-calendar\"><\/span>${startDate(%d %b %Y)};<br \/><span class=\"icon-time\"><\/span>${startDate(%I:%M%p)}[!a: - ${endDate(%I:%M%p)}]<br \/><span class=\"icon-hand-right\"><\/span>${title}","modlatest_customcss":"","modlatest_MaxEvents":"10","modlatest_Mode":"3","modlatest_Days":"30","startnow":"0","pastonly":"0","modlatest_NoRepeat":"0","modlatest_multiday":"0","modlatest_DispLinks":"1","modlatest_DispYear":"0","modlatest_NoEvents":"1","modlatest_DisDateStyle":"0","modlatest_DisTitleStyle":"0","modlatest_LinkToCal":"0","modlatest_LinkCloaking":"0","modlatest_SortReverse":"0","modlatest_RSS":"0","modlatest_rss_title":"","modlatest_rss_description":"","modlatest_templatetop":"","modlatest_templaterow":"","modlatest_templatebottom":"","bootstrapcss":"1","extras0":"","extras1":"","extras2":"","extras3":"","extras4":"","extras5":"","extras6":"","extras7":"","extras8":"","extras9":"","extras10":"","extras11":"","extras12":"","extras13":""}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10008', MOD_JEV_FILTER_MODULE_TITLE, module, mod_jevents_filter, '', '0', '1', '0', '0', '{"name":"MOD_JEV_FILTER_MODULE_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2009-2017 GWE Systems Ltd","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_FILTER_MODULE_DESC","group":"","filename":"mod_jevents_filter"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10009', MOD_JEV_CUSTOM_MODULE_TITLE, module, mod_jevents_custom, '', '0', '1', '0', '0', '{"name":"MOD_JEV_CUSTOM_MODULE_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2013-2017 GWE Systems Ltd","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_CUSTOM_MODULE_DESC","group":"","filename":"mod_jevents_custom"}', '[]', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10010', MOD_JEV_SWITCH_VIEW_TITLE, module, mod_jevents_switchview, '', '0', '1', '0', '0', '{"name":"MOD_JEV_SWITCH_VIEW_TITLE","type":"module","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2009-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"http:\/\/www.jevents.net","version":"3.4.33","description":"MOD_JEV_SWITCH_VIEW_DESC","group":"","filename":"mod_jevents_switchview"}', '{"cache":"0","moduleclass_sfx":"","show_preview":"0","target_itemid":""}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10011', PLG_FINDER_JEVENTS, plugin, jevents, finder, '0', '0', '1', '0', '{"name":"PLG_FINDER_JEVENTS","type":"plugin","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2010-2017 GWE Systems Ltd. All rights reserved.","authorEmail":"","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"PLG_FINDER_JEVENTS_XML_DESCRIPTION","group":"","filename":"jevents"}', '{"target_itemid":""}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10012', PLG_JEV_SEARCH_TITLE, plugin, eventsearch, search, '0', '1', '1', '0', '{"name":"PLG_JEV_SEARCH_TITLE","type":"plugin","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2008-2017 GWE Systems Ltd, 2006-2008 JEvents Project Group","authorEmail":"","authorUrl":"www.jevents.net","version":"3.4.33","description":"PLG_JEV_SEARCH_DESC","group":"","filename":"eventsearch"}', '{"search_limit":"50","date_format":"%Y-%m-%d","target_itemid":"","all_language_search":"1"}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10013', plg_installer_jeventsinstaller, plugin, jeventsinstaller, installer, '0', '1', '1', '0', '{"name":"plg_installer_jeventsinstaller","type":"plugin","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2016 GWE Systems Ltd. All rights reserved.","authorEmail":"via website","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"PLG_INSTALLER_JEVENTSINSTALLER","group":"","filename":"jeventsinstaller"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10014', PLG_JEV_CORE_CONTENT_PLUGIN_TITLE, plugin, jevents, content, '0', '1', '1', '0', '{"name":"PLG_JEV_CORE_CONTENT_PLUGIN_TITLE","type":"plugin","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2012-2017 GWE Systems Ltd","authorEmail":"","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"PLG_JEV_CORE_CONTENT_PLUGIN_DESC","group":"","filename":"jevents"}', '', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10015', 'googl Shortener', library, googl, '', '0', '1', '1', '0', '{"name":"googl Shortener","type":"library","creationDate":"March 2017","author":"Sebastian Wyder package by Carlos Camara","copyright":"(C) 2010-2017 GWE Systems Ltd. All rights reserved.","authorEmail":"carcam@jevents.net","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"Googl Shortener library created by Sebastian Wyder (https:\/\/github.com\/sebi\/googl-php) and package by Carlos C\u00e1mara (http:\/\/www.jevents.net)","group":"","filename":"googl"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10016', 'JEvents - Bootstrap Modal Library', library, jevmodal, '', '0', '1', '1', '0', '{"name":"JEvents - Bootstrap Modal Library","type":"library","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2015-2017 GWE Systems Ltd. All rights reserved.","authorEmail":"via website","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"Bootstrap Modal Library for JEvents","group":"","filename":"jevmodal"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10017', PLG_SYSTEM_GWEJSON, plugin, gwejson, system, '0', '1', '1', '0', '{"name":"PLG_SYSTEM_GWEJSON","type":"plugin","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2015-2017 GWE Systems Ltd. All rights reserved.","authorEmail":"via website","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"PLG_SYSTEM_JSON_EXECUTION_WRAPPER","group":"","filename":"gwejson"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10018', 'JEvents - Typeahead Library', library, jevtypeahead, '', '0', '1', '1', '0', '{"name":"JEvents - Typeahead Library","type":"library","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2015 GWE Systems Ltd. All rights reserved.","authorEmail":"carcam@jevents.net","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"Typeahead Library for JEvents","group":"","filename":"jevtypeahead"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
+        - ['10019', JEV_PACKAGE_TITLE, package, pkg_jevents, '', '0', '1', '1', '0', '{"name":"JEV_PACKAGE_TITLE","type":"package","creationDate":"March 2017","author":"GWE Systems Ltd","copyright":"(C) 2012-2017 GWE Systems Ltd","authorEmail":"","authorUrl":"www.gwesystems.com","version":"3.4.33","description":"JEV_PACKAGE_DESC","group":"","filename":"pkg_jevents"}', '{}', '', '', '0', '0000-00-00 00:00:00', '0', '0']
 '#__finder_filters':
     name: '#__finder_filters'
     from:
@@ -1134,6 +1158,254 @@
     index:
         - { Table: '#__finder_types', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
         - { Table: '#__finder_types', Non_unique: '0', Key_name: title, Seq_in_index: '1', Column_name: title, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jev_defaults':
+    name: '#__jev_defaults'
+    from:
+        - '#__jev_defaults'
+    columns:
+        id: { Field: id, Type: 'int(11) unsigned', 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [id] }
+        title: { Field: title, Type: varchar(100), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [title] }
+        name: { Field: name, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [name] }
+        subject: { Field: subject, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [subject] }
+        value: { Field: value, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [value] }
+        state: { Field: state, Type: tinyint(3), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [state] }
+        params: { Field: params, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [params] }
+        language: { Field: language, Type: varchar(20), 'Null': 'NO', Default: '*', Extra: '', Comment: '', From: [language] }
+        catid: { Field: catid, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [catid] }
+    index:
+        - { Table: '#__jev_defaults', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jev_defaults', Non_unique: '1', Key_name: name, Seq_in_index: '1', Column_name: name, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jev_defaults', Non_unique: '1', Key_name: langcodename, Seq_in_index: '1', Column_name: language, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jev_defaults', Non_unique: '1', Key_name: langcodename, Seq_in_index: '2', Column_name: catid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jev_defaults', Non_unique: '1', Key_name: langcodename, Seq_in_index: '3', Column_name: name, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jev_users':
+    name: '#__jev_users'
+    from:
+        - '#__jev_users'
+    columns:
+        id: { Field: id, Type: 'int(11) unsigned', 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [id] }
+        user_id: { Field: user_id, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [user_id] }
+        published: { Field: published, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [published] }
+        canuploadimages: { Field: canuploadimages, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [canuploadimages] }
+        canuploadmovies: { Field: canuploadmovies, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [canuploadmovies] }
+        cancreate: { Field: cancreate, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [cancreate] }
+        canedit: { Field: canedit, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [canedit] }
+        canpublishown: { Field: canpublishown, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [canpublishown] }
+        candeleteown: { Field: candeleteown, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [candeleteown] }
+        canpublishall: { Field: canpublishall, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [canpublishall] }
+        candeleteall: { Field: candeleteall, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [candeleteall] }
+        cancreateown: { Field: cancreateown, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [cancreateown] }
+        cancreateglobal: { Field: cancreateglobal, Type: tinyint(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [cancreateglobal] }
+        eventslimit: { Field: eventslimit, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [eventslimit] }
+        extraslimit: { Field: extraslimit, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [extraslimit] }
+        categories: { Field: categories, Type: varchar(255), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [categories] }
+        calendars: { Field: calendars, Type: varchar(255), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [calendars] }
+        created: { Field: created, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [created] }
+    index:
+        - { Table: '#__jev_users', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jev_users', Non_unique: '1', Key_name: user, Seq_in_index: '1', Column_name: user_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_catmap':
+    name: '#__jevents_catmap'
+    from:
+        - '#__jevents_catmap'
+    columns:
+        evid: { Field: evid, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [evid] }
+        catid: { Field: catid, Type: int(11), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [catid] }
+        ordering: { Field: ordering, Type: 'int(5) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [ordering] }
+    index:
+        - { Table: '#__jevents_catmap', Non_unique: '0', Key_name: key_event_category, Seq_in_index: '1', Column_name: evid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_catmap', Non_unique: '0', Key_name: key_event_category, Seq_in_index: '2', Column_name: catid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_catmap', Non_unique: '1', Key_name: key_evid, Seq_in_index: '1', Column_name: evid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_exception':
+    name: '#__jevents_exception'
+    from:
+        - '#__jevents_exception'
+    columns:
+        ex_id: { Field: ex_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [ex_id] }
+        rp_id: { Field: rp_id, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [rp_id] }
+        eventid: { Field: eventid, Type: int(12), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [eventid] }
+        eventdetail_id: { Field: eventdetail_id, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [eventdetail_id] }
+        exception_type: { Field: exception_type, Type: int(2), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [exception_type] }
+        startrepeat: { Field: startrepeat, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [startrepeat] }
+        oldstartrepeat: { Field: oldstartrepeat, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [oldstartrepeat] }
+        tempfield: { Field: tempfield, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [tempfield] }
+    index:
+        - { Table: '#__jevents_exception', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: ex_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_exception', Non_unique: '1', Key_name: eventid, Seq_in_index: '1', Column_name: eventid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_exception', Non_unique: '1', Key_name: rp_id, Seq_in_index: '1', Column_name: rp_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_filtermap':
+    name: '#__jevents_filtermap'
+    from:
+        - '#__jevents_filtermap'
+    columns:
+        fid: { Field: fid, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [fid] }
+        userid: { Field: userid, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [userid] }
+        modid: { Field: modid, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [modid] }
+        andor: { Field: andor, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [andor] }
+        filters: { Field: filters, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [filters] }
+        name: { Field: name, Type: varchar(255), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [name] }
+        md5: { Field: md5, Type: varchar(255), 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [md5] }
+    index:
+        - { Table: '#__jevents_filtermap', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: fid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_filtermap', Non_unique: '1', Key_name: md5, Seq_in_index: '1', Column_name: md5, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_icsfile':
+    name: '#__jevents_icsfile'
+    from:
+        - '#__jevents_icsfile'
+    columns:
+        ics_id: { Field: ics_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [ics_id] }
+        srcURL: { Field: srcURL, Type: varchar(500), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [srcURL] }
+        label: { Field: label, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [label] }
+        filename: { Field: filename, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [filename] }
+        icaltype: { Field: icaltype, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [icaltype] }
+        isdefault: { Field: isdefault, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [isdefault] }
+        ignoreembedcat: { Field: ignoreembedcat, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [ignoreembedcat] }
+        state: { Field: state, Type: tinyint(3), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [state] }
+        access: { Field: access, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [access] }
+        catid: { Field: catid, Type: int(11), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [catid] }
+        created: { Field: created, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [created] }
+        created_by: { Field: created_by, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [created_by] }
+        created_by_alias: { Field: created_by_alias, Type: varchar(100), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [created_by_alias] }
+        modified_by: { Field: modified_by, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [modified_by] }
+        refreshed: { Field: refreshed, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [refreshed] }
+        autorefresh: { Field: autorefresh, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [autorefresh] }
+        overlaps: { Field: overlaps, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [overlaps] }
+    index:
+        - { Table: '#__jevents_icsfile', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: ics_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_icsfile', Non_unique: '0', Key_name: label, Seq_in_index: '1', Column_name: label, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_icsfile', Non_unique: '1', Key_name: stateidx, Seq_in_index: '1', Column_name: state, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_repetition':
+    name: '#__jevents_repetition'
+    from:
+        - '#__jevents_repetition'
+    columns:
+        rp_id: { Field: rp_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [rp_id] }
+        eventid: { Field: eventid, Type: int(12), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [eventid] }
+        eventdetail_id: { Field: eventdetail_id, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [eventdetail_id] }
+        duplicatecheck: { Field: duplicatecheck, Type: varchar(32), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [duplicatecheck] }
+        startrepeat: { Field: startrepeat, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [startrepeat] }
+        endrepeat: { Field: endrepeat, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [endrepeat] }
+    index:
+        - { Table: '#__jevents_repetition', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: rp_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '0', Key_name: duplicatecheck, Seq_in_index: '1', Column_name: duplicatecheck, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventid, Seq_in_index: '1', Column_name: eventid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventstart, Seq_in_index: '1', Column_name: eventid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventstart, Seq_in_index: '2', Column_name: startrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventend, Seq_in_index: '1', Column_name: eventid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventend, Seq_in_index: '2', Column_name: endrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: eventdetail, Seq_in_index: '1', Column_name: eventdetail_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: startrepeat, Seq_in_index: '1', Column_name: startrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: startend, Seq_in_index: '1', Column_name: startrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: startend, Seq_in_index: '2', Column_name: endrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_repetition', Non_unique: '1', Key_name: endrepeat, Seq_in_index: '1', Column_name: endrepeat, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_rrule':
+    name: '#__jevents_rrule'
+    from:
+        - '#__jevents_rrule'
+    columns:
+        rr_id: { Field: rr_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [rr_id] }
+        eventid: { Field: eventid, Type: int(12), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [eventid] }
+        freq: { Field: freq, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [freq] }
+        until: { Field: until, Type: int(12), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [until] }
+        untilraw: { Field: untilraw, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [untilraw] }
+        count: { Field: count, Type: int(6), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [count] }
+        rinterval: { Field: rinterval, Type: int(6), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [rinterval] }
+        bysecond: { Field: bysecond, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [bysecond] }
+        byminute: { Field: byminute, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [byminute] }
+        byhour: { Field: byhour, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [byhour] }
+        byday: { Field: byday, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [byday] }
+        bymonthday: { Field: bymonthday, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [bymonthday] }
+        byyearday: { Field: byyearday, Type: varchar(100), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [byyearday] }
+        byweekno: { Field: byweekno, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [byweekno] }
+        bymonth: { Field: bymonth, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [bymonth] }
+        bysetpos: { Field: bysetpos, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [bysetpos] }
+        wkst: { Field: wkst, Type: varchar(50), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [wkst] }
+        irregulardates: { Field: irregulardates, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [irregulardates] }
+    index:
+        - { Table: '#__jevents_rrule', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: rr_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_rrule', Non_unique: '1', Key_name: eventid, Seq_in_index: '1', Column_name: eventid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_translation':
+    name: '#__jevents_translation'
+    from:
+        - '#__jevents_translation'
+    columns:
+        translation_id: { Field: translation_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [translation_id] }
+        evdet_id: { Field: evdet_id, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [evdet_id] }
+        description: { Field: description, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [description] }
+        location: { Field: location, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [location] }
+        summary: { Field: summary, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [summary] }
+        contact: { Field: contact, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [contact] }
+        extra_info: { Field: extra_info, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [extra_info] }
+        language: { Field: language, Type: varchar(20), 'Null': 'NO', Default: '*', Extra: '', Comment: '', From: [language] }
+    index:
+        - { Table: '#__jevents_translation', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: translation_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_translation', Non_unique: '1', Key_name: evdet_id, Seq_in_index: '1', Column_name: evdet_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_translation', Non_unique: '1', Key_name: langdetail, Seq_in_index: '1', Column_name: evdet_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_translation', Non_unique: '1', Key_name: langdetail, Seq_in_index: '2', Column_name: language, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_vevdetail':
+    name: '#__jevents_vevdetail'
+    from:
+        - '#__jevents_vevdetail'
+    columns:
+        evdet_id: { Field: evdet_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [evdet_id] }
+        rawdata: { Field: rawdata, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [rawdata] }
+        dtstart: { Field: dtstart, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [dtstart] }
+        dtstartraw: { Field: dtstartraw, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [dtstartraw] }
+        duration: { Field: duration, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [duration] }
+        durationraw: { Field: durationraw, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [durationraw] }
+        dtend: { Field: dtend, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [dtend] }
+        dtendraw: { Field: dtendraw, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [dtendraw] }
+        dtstamp: { Field: dtstamp, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [dtstamp] }
+        class: { Field: class, Type: varchar(10), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [class] }
+        categories: { Field: categories, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [categories] }
+        color: { Field: color, Type: varchar(20), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [color] }
+        description: { Field: description, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [description] }
+        geolon: { Field: geolon, Type: float, 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [geolon] }
+        geolat: { Field: geolat, Type: float, 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [geolat] }
+        location: { Field: location, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [location] }
+        priority: { Field: priority, Type: 'tinyint(3) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [priority] }
+        status: { Field: status, Type: varchar(20), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [status] }
+        summary: { Field: summary, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [summary] }
+        contact: { Field: contact, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [contact] }
+        organizer: { Field: organizer, Type: varchar(120), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [organizer] }
+        url: { Field: url, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [url] }
+        extra_info: { Field: extra_info, Type: text, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [extra_info] }
+        created: { Field: created, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [created] }
+        sequence: { Field: sequence, Type: int(11), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [sequence] }
+        state: { Field: state, Type: tinyint(3), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [state] }
+        modified: { Field: modified, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [modified] }
+        multiday: { Field: multiday, Type: tinyint(3), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [multiday] }
+        hits: { Field: hits, Type: int(11), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [hits] }
+        noendtime: { Field: noendtime, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [noendtime] }
+    index:
+        - { Table: '#__jevents_vevdetail', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: evdet_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+'#__jevents_vevent':
+    name: '#__jevents_vevent'
+    from:
+        - '#__jevents_vevent'
+    columns:
+        ev_id: { Field: ev_id, Type: int(12), 'Null': 'NO', Default: null, Extra: auto_increment, Comment: '', From: [ev_id] }
+        icsid: { Field: icsid, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [icsid] }
+        catid: { Field: catid, Type: int(11), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [catid] }
+        uid: { Field: uid, Type: varchar(255), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [uid] }
+        refreshed: { Field: refreshed, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [refreshed] }
+        created: { Field: created, Type: datetime, 'Null': 'NO', Default: '0000-00-00 00:00:00', Extra: '', Comment: '', From: [created] }
+        created_by: { Field: created_by, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [created_by] }
+        created_by_alias: { Field: created_by_alias, Type: varchar(100), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [created_by_alias] }
+        modified_by: { Field: modified_by, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [modified_by] }
+        rawdata: { Field: rawdata, Type: longtext, 'Null': 'NO', Default: null, Extra: '', Comment: '', From: [rawdata] }
+        recurrence_id: { Field: recurrence_id, Type: varchar(30), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [recurrence_id] }
+        detail_id: { Field: detail_id, Type: int(12), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [detail_id] }
+        state: { Field: state, Type: tinyint(3), 'Null': 'NO', Default: '1', Extra: '', Comment: '', From: [state] }
+        lockevent: { Field: lockevent, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [lockevent] }
+        author_notified: { Field: author_notified, Type: tinyint(3), 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [author_notified] }
+        access: { Field: access, Type: 'int(11) unsigned', 'Null': 'NO', Default: '0', Extra: '', Comment: '', From: [access] }
+        tzid: { Field: tzid, Type: varchar(100), 'Null': 'NO', Default: '', Extra: '', Comment: '', From: [tzid] }
+    index:
+        - { Table: '#__jevents_vevent', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: ev_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_vevent', Non_unique: '1', Key_name: icsid, Seq_in_index: '1', Column_name: icsid, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_vevent', Non_unique: '1', Key_name: stateidx, Seq_in_index: '1', Column_name: state, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
+        - { Table: '#__jevents_vevent', Non_unique: '1', Key_name: evaccess, Seq_in_index: '1', Column_name: access, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
 '#__languages':
     name: '#__languages'
     from:
@@ -1208,7 +1480,7 @@
         - { Table: '#__menu', Non_unique: '1', Key_name: idx_path, Seq_in_index: '1', Column_name: path, Sub_part: '100', 'Null': '', Comment: '', Index_comment: '' }
         - { Table: '#__menu', Non_unique: '1', Key_name: idx_language, Seq_in_index: '1', Column_name: language, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
     data:
-        - ['1', '', Menu_Item_Root, root, '', '', '', '', '1', '0', '0', '0', '0', '0000-00-00 00:00:00', '0', '0', '', '0', '', '0', '55', '0', '*', '0']
+        - ['1', '', Menu_Item_Root, root, '', '', '', '', '1', '0', '0', '0', '0', '0000-00-00 00:00:00', '0', '0', '', '0', '', '0', '57', '0', '*', '0']
         - ['2', menu, com_banners, Banners, '', Banners, 'index.php?option=com_banners', component, '0', '1', '1', '4', '0', '0000-00-00 00:00:00', '0', '0', 'class:banners', '0', '', '1', '10', '0', '*', '1']
         - ['3', menu, com_banners, Banners, '', Banners/Banners, 'index.php?option=com_banners', component, '0', '2', '2', '4', '0', '0000-00-00 00:00:00', '0', '0', 'class:banners', '0', '', '2', '3', '0', '*', '1']
         - ['4', menu, com_banners_categories, Categories, '', Banners/Categories, 'index.php?option=com_categories&extension=com_banners', component, '0', '2', '2', '6', '0', '0000-00-00 00:00:00', '0', '0', 'class:banners-cat', '0', '', '4', '5', '0', '*', '1']
@@ -1234,6 +1506,7 @@
         - ['104', usermenu, 'Submit an Article', submit-an-article, '', submit-an-article, 'index.php?option=com_content&view=form&layout=edit', component, '1', '1', '1', '22', '0', '0000-00-00 00:00:00', '0', '3', '', '0', '{"enable_category":"0","catid":"2","menu-anchor_title":"","menu-anchor_css":"","menu_image":"","menu_text":1,"page_title":"","show_page_heading":0,"page_heading":"","pageclass_sfx":"","menu-meta_description":"","menu-meta_keywords":"","robots":"","secure":0}', '13', '14', '0', '*', '0']
         - ['106', usermenu, 'Template Settings', template-settings, '', template-settings, 'index.php?option=com_config&view=templates&controller=config.display.templates', component, '1', '1', '1', '23', '0', '0000-00-00 00:00:00', '0', '6', '', '0', '{"menu-anchor_title":"","menu-anchor_css":"","menu_image":"","menu_text":1,"page_title":"","show_page_heading":0,"page_heading":"","pageclass_sfx":"","menu-meta_description":"","menu-meta_keywords":"","robots":"","secure":0}', '19', '20', '0', '*', '0']
         - ['107', usermenu, 'Site Settings', site-settings, '', site-settings, 'index.php?option=com_config&view=config&controller=config.display.config', component, '1', '1', '1', '23', '0', '0000-00-00 00:00:00', '0', '6', '', '0', '{"menu-anchor_title":"","menu-anchor_css":"","menu_image":"","menu_text":1,"page_title":"","show_page_heading":0,"page_heading":"","pageclass_sfx":"","menu-meta_description":"","menu-meta_keywords":"","robots":"","secure":0}', '21', '22', '0', '*', '0']
+        - ['108', main, COM_JEVENTS_MENU, com-jevents-menu, '', com-jevents-menu, 'index.php?option=com_jevents', component, '0', '1', '1', '10004', '0', '0000-00-00 00:00:00', '0', '1', 'class:component', '0', '{}', '55', '56', '0', '', '1']
 '#__menu_types':
     name: '#__menu_types'
     from:
@@ -1332,6 +1605,12 @@
         - ['91', '58', 'User Menu', '', '', '3', position-7, '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '1', mod_menu, '1', '1', '{"menutype":"usermenu","base":"","startLevel":"1","endLevel":"0","showAllChildren":"0","tag_id":"","class_sfx":"","window_open":"","layout":"_:default","moduleclass_sfx":"_menu","cache":"1","cache_time":"900","cachemode":"itemid","module_tag":"div","bootstrap_size":"0","header_tag":"h3","header_class":"","style":"0"}', '0', '*']
         - ['92', '59', 'Image Module', '', '<p><img src="images/headers/blue-flower.jpg" alt="Blue Flower" /></p>', '0', position-3, '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '1', mod_custom, '1', '0', '{"prepare_content":"1","backgroundimage":"","layout":"_:default","moduleclass_sfx":"","cache":"1","cache_time":"900","cachemode":"static","module_tag":"div","bootstrap_size":"0","header_tag":"h3","header_class":"","style":"0"}', '0', '*']
         - ['93', '60', Search, '', '', '0', position-0, '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '1', mod_search, '1', '1', '{"label":"","width":"20","text":"","button":"0","button_pos":"right","imagebutton":"1","button_text":"","opensearch":"1","opensearch_title":"","set_itemid":"0","layout":"_:default","moduleclass_sfx":"","cache":"1","cache_time":"900","cachemode":"itemid","module_tag":"div","bootstrap_size":"0","header_tag":"h3","header_class":"","style":"0"}', '0', '*']
+        - ['94', '64', 'JEvents - Calendar Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_cal, '1', '1', '', '0', '*']
+        - ['95', '65', 'JEvents - Legend Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_legend, '1', '1', '', '0', '*']
+        - ['96', '66', 'JEvents - Latest Events Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_latest, '1', '1', '', '0', '*']
+        - ['97', '67', 'JEvents - Filter Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_filter, '1', '1', '', '0', '*']
+        - ['98', '68', 'JEvents - Custom Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_custom, '1', '1', '', '0', '*']
+        - ['99', '69', 'JEvents - Switch View Module', '', '', '0', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0', mod_jevents_switchview, '1', '1', '', '0', '*']
 '#__modules_menu':
     name: '#__modules_menu'
     from:
@@ -1678,11 +1957,13 @@
     index:
         - { Table: '#__update_sites', Non_unique: '0', Key_name: PRIMARY, Seq_in_index: '1', Column_name: update_site_id, Sub_part: null, 'Null': '', Comment: '', Index_comment: '' }
     data:
-        - ['1', 'Joomla! Core', collection, 'https://update.joomla.org/core/list.xml', '1', '1491362763', '']
-        - ['2', 'Joomla! Extension Directory', collection, 'https://update.joomla.org/jed/list.xml', '1', '1491362763', '']
-        - ['3', 'Accredited Joomla! Translations', collection, 'https://update.joomla.org/language/translationlist_3.xml', '1', '1491362723', '']
-        - ['4', 'Joomla! Update Component Update Site', extension, 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', '1', '0', '']
-        - ['5', 'Accredited Joomla! Translations', collection, 'http://update.joomla.org/language/translationlist_3.xml', '1', '0', '']
+        - ['1', 'Joomla! Core', collection, 'https://update.joomla.org/core/list.xml', '1', '1491808675', '']
+        - ['2', 'Joomla! Extension Directory', collection, 'https://update.joomla.org/jed/list.xml', '1', '1491808676', '']
+        - ['3', 'Accredited Joomla! Translations', collection, 'https://update.joomla.org/language/translationlist_3.xml', '1', '1491808675', '']
+        - ['4', 'Joomla! Update Component Update Site', extension, 'https://update.joomla.org/core/extensions/com_joomlaupdate.xml', '1', '1491808675', '']
+        - ['5', 'Accredited Joomla! Translations', collection, 'http://update.joomla.org/language/translationlist_3.xml', '1', '1491808676', '']
+        - ['6', 'WebInstaller Update Site', extension, 'http://appscdn.joomla.org/webapps/jedapps/webinstaller.xml', '1', '1491808676', '']
+        - ['7', 'JEvents Updates', extension, 'https://www.jevents.net/updates/-/pkg_jevents-update-3.4.33.xml', '1', '0', '']
 '#__update_sites_extensions':
     name: '#__update_sites_extensions'
     from:
@@ -1699,6 +1980,8 @@
         - ['3', '802']
         - ['4', '28']
         - ['5', '10002']
+        - ['6', '10003']
+        - ['7', '10019']
 '#__updates':
     name: '#__updates'
     from:

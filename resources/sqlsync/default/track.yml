@@ -38,6 +38,17 @@ table:
     '#__finder_tokens': cols
     '#__finder_tokens_aggregate': cols
     '#__finder_types': cols
+    '#__jev_defaults': all
+    '#__jev_users': all
+    '#__jevents_catmap': all
+    '#__jevents_exception': all
+    '#__jevents_filtermap': all
+    '#__jevents_icsfile': all
+    '#__jevents_repetition': all
+    '#__jevents_rrule': all
+    '#__jevents_translation': all
+    '#__jevents_vevdetail': all
+    '#__jevents_vevent': all
     '#__languages': all
     '#__menu': all
     '#__menu_types': all
@@ -53,6 +64,7 @@ table:
     '#__session': cols
     '#__tags': all
     '#__template_styles': all
+    '#__test': all
     '#__ucm_base': all
     '#__ucm_content': all
     '#__ucm_history': cols
@@ -67,4 +79,3 @@ table:
     '#__users': cols
     '#__utf8_conversion': all
     '#__viewlevels': all
-    '#__test': all
